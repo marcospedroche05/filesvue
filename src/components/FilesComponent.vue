@@ -23,6 +23,7 @@ export default {
         }
     },
     methods: {
+        //VUE NECESITA UN METODO ONCHANGE PARA INPUTS DE TIPO FICHERO, NO PUEDE CON V-MODEL
         cambiarFichero(event) {
             this.fichero = event.target.files[0];
         },
